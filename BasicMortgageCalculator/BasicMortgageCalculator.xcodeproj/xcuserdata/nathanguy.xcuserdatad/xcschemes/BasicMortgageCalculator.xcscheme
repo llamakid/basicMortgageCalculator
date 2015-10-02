@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E18DE4D41BB2E31000FC3A25"
+               BlueprintIdentifier = "E1EF2A9F1BBB0E4A0023D2FC"
                BuildableName = "BasicMortgageCalculator.app"
                BlueprintName = "BasicMortgageCalculator"
                ReferencedContainer = "container:BasicMortgageCalculator.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E18DE4D41BB2E31000FC3A25"
+            BlueprintIdentifier = "E1EF2A9F1BBB0E4A0023D2FC"
             BuildableName = "BasicMortgageCalculator.app"
             BlueprintName = "BasicMortgageCalculator"
             ReferencedContainer = "container:BasicMortgageCalculator.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E18DE4D41BB2E31000FC3A25"
+            BlueprintIdentifier = "E1EF2A9F1BBB0E4A0023D2FC"
             BuildableName = "BasicMortgageCalculator.app"
             BlueprintName = "BasicMortgageCalculator"
             ReferencedContainer = "container:BasicMortgageCalculator.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E18DE4D41BB2E31000FC3A25"
+            BlueprintIdentifier = "E1EF2A9F1BBB0E4A0023D2FC"
             BuildableName = "BasicMortgageCalculator.app"
             BlueprintName = "BasicMortgageCalculator"
             ReferencedContainer = "container:BasicMortgageCalculator.xcodeproj">

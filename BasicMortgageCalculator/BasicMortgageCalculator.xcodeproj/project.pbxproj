@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E18DE4D91BB2E31000FC3A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DE4D81BB2E31000FC3A25 /* AppDelegate.swift */; };
-		E18DE4DB1BB2E31000FC3A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DE4DA1BB2E31000FC3A25 /* ViewController.swift */; };
-		E18DE4DE1BB2E31000FC3A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18DE4DC1BB2E31000FC3A25 /* Main.storyboard */; };
-		E18DE4E01BB2E31000FC3A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18DE4DF1BB2E31000FC3A25 /* Assets.xcassets */; };
-		E18DE4E31BB2E31000FC3A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18DE4E11BB2E31000FC3A25 /* LaunchScreen.storyboard */; };
+		E1EF2AA41BBB0E4A0023D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF2AA31BBB0E4A0023D2FC /* AppDelegate.swift */; };
+		E1EF2AA61BBB0E4A0023D2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF2AA51BBB0E4A0023D2FC /* ViewController.swift */; };
+		E1EF2AA91BBB0E4A0023D2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EF2AA71BBB0E4A0023D2FC /* Main.storyboard */; };
+		E1EF2AAB1BBB0E4A0023D2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EF2AAA1BBB0E4A0023D2FC /* Assets.xcassets */; };
+		E1EF2AAE1BBB0E4A0023D2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EF2AAC1BBB0E4A0023D2FC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E18DE4D51BB2E31000FC3A25 /* BasicMortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18DE4D81BB2E31000FC3A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E18DE4DA1BB2E31000FC3A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E18DE4DD1BB2E31000FC3A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E18DE4DF1BB2E31000FC3A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E18DE4E21BB2E31000FC3A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E18DE4E41BB2E31000FC3A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EF2AA01BBB0E4A0023D2FC /* BasicMortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EF2AA31BBB0E4A0023D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1EF2AA51BBB0E4A0023D2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1EF2AA81BBB0E4A0023D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1EF2AAA1BBB0E4A0023D2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EF2AAD1BBB0E4A0023D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1EF2AAF1BBB0E4A0023D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E18DE4D21BB2E31000FC3A25 /* Frameworks */ = {
+		E1EF2A9D1BBB0E4A0023D2FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E18DE4CC1BB2E31000FC3A25 = {
+		E1EF2A971BBB0E4A0023D2FC = {
 			isa = PBXGroup;
 			children = (
-				E18DE4D71BB2E31000FC3A25 /* BasicMortgageCalculator */,
-				E18DE4D61BB2E31000FC3A25 /* Products */,
+				E1EF2AA21BBB0E4A0023D2FC /* BasicMortgageCalculator */,
+				E1EF2AA11BBB0E4A0023D2FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E18DE4D61BB2E31000FC3A25 /* Products */ = {
+		E1EF2AA11BBB0E4A0023D2FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E18DE4D51BB2E31000FC3A25 /* BasicMortgageCalculator.app */,
+				E1EF2AA01BBB0E4A0023D2FC /* BasicMortgageCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E18DE4D71BB2E31000FC3A25 /* BasicMortgageCalculator */ = {
+		E1EF2AA21BBB0E4A0023D2FC /* BasicMortgageCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				E18DE4D81BB2E31000FC3A25 /* AppDelegate.swift */,
-				E18DE4DA1BB2E31000FC3A25 /* ViewController.swift */,
-				E18DE4DC1BB2E31000FC3A25 /* Main.storyboard */,
-				E18DE4DF1BB2E31000FC3A25 /* Assets.xcassets */,
-				E18DE4E11BB2E31000FC3A25 /* LaunchScreen.storyboard */,
-				E18DE4E41BB2E31000FC3A25 /* Info.plist */,
+				E1EF2AA31BBB0E4A0023D2FC /* AppDelegate.swift */,
+				E1EF2AA51BBB0E4A0023D2FC /* ViewController.swift */,
+				E1EF2AA71BBB0E4A0023D2FC /* Main.storyboard */,
+				E1EF2AAA1BBB0E4A0023D2FC /* Assets.xcassets */,
+				E1EF2AAC1BBB0E4A0023D2FC /* LaunchScreen.storyboard */,
+				E1EF2AAF1BBB0E4A0023D2FC /* Info.plist */,
 			);
 			path = BasicMortgageCalculator;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E18DE4D41BB2E31000FC3A25 /* BasicMortgageCalculator */ = {
+		E1EF2A9F1BBB0E4A0023D2FC /* BasicMortgageCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E18DE4E71BB2E31000FC3A25 /* Build configuration list for PBXNativeTarget "BasicMortgageCalculator" */;
+			buildConfigurationList = E1EF2AB21BBB0E4A0023D2FC /* Build configuration list for PBXNativeTarget "BasicMortgageCalculator" */;
 			buildPhases = (
-				E18DE4D11BB2E31000FC3A25 /* Sources */,
-				E18DE4D21BB2E31000FC3A25 /* Frameworks */,
-				E18DE4D31BB2E31000FC3A25 /* Resources */,
+				E1EF2A9C1BBB0E4A0023D2FC /* Sources */,
+				E1EF2A9D1BBB0E4A0023D2FC /* Frameworks */,
+				E1EF2A9E1BBB0E4A0023D2FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,24 +81,24 @@
 			);
 			name = BasicMortgageCalculator;
 			productName = BasicMortgageCalculator;
-			productReference = E18DE4D51BB2E31000FC3A25 /* BasicMortgageCalculator.app */;
+			productReference = E1EF2AA01BBB0E4A0023D2FC /* BasicMortgageCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E18DE4CD1BB2E31000FC3A25 /* Project object */ = {
+		E1EF2A981BBB0E4A0023D2FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nathan Guy";
 				TargetAttributes = {
-					E18DE4D41BB2E31000FC3A25 = {
-						CreatedOnToolsVersion = 7.0;
+					E1EF2A9F1BBB0E4A0023D2FC = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
-			buildConfigurationList = E18DE4D01BB2E31000FC3A25 /* Build configuration list for PBXProject "BasicMortgageCalculator" */;
+			buildConfigurationList = E1EF2A9B1BBB0E4A0023D2FC /* Build configuration list for PBXProject "BasicMortgageCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -106,54 +106,54 @@
 				en,
 				Base,
 			);
-			mainGroup = E18DE4CC1BB2E31000FC3A25;
-			productRefGroup = E18DE4D61BB2E31000FC3A25 /* Products */;
+			mainGroup = E1EF2A971BBB0E4A0023D2FC;
+			productRefGroup = E1EF2AA11BBB0E4A0023D2FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E18DE4D41BB2E31000FC3A25 /* BasicMortgageCalculator */,
+				E1EF2A9F1BBB0E4A0023D2FC /* BasicMortgageCalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E18DE4D31BB2E31000FC3A25 /* Resources */ = {
+		E1EF2A9E1BBB0E4A0023D2FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18DE4E31BB2E31000FC3A25 /* LaunchScreen.storyboard in Resources */,
-				E18DE4E01BB2E31000FC3A25 /* Assets.xcassets in Resources */,
-				E18DE4DE1BB2E31000FC3A25 /* Main.storyboard in Resources */,
+				E1EF2AAE1BBB0E4A0023D2FC /* LaunchScreen.storyboard in Resources */,
+				E1EF2AAB1BBB0E4A0023D2FC /* Assets.xcassets in Resources */,
+				E1EF2AA91BBB0E4A0023D2FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E18DE4D11BB2E31000FC3A25 /* Sources */ = {
+		E1EF2A9C1BBB0E4A0023D2FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18DE4DB1BB2E31000FC3A25 /* ViewController.swift in Sources */,
-				E18DE4D91BB2E31000FC3A25 /* AppDelegate.swift in Sources */,
+				E1EF2AA61BBB0E4A0023D2FC /* ViewController.swift in Sources */,
+				E1EF2AA41BBB0E4A0023D2FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E18DE4DC1BB2E31000FC3A25 /* Main.storyboard */ = {
+		E1EF2AA71BBB0E4A0023D2FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E18DE4DD1BB2E31000FC3A25 /* Base */,
+				E1EF2AA81BBB0E4A0023D2FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E18DE4E11BB2E31000FC3A25 /* LaunchScreen.storyboard */ = {
+		E1EF2AAC1BBB0E4A0023D2FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E18DE4E21BB2E31000FC3A25 /* Base */,
+				E1EF2AAD1BBB0E4A0023D2FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E18DE4E51BB2E31000FC3A25 /* Debug */ = {
+		E1EF2AB01BBB0E4A0023D2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		E18DE4E61BB2E31000FC3A25 /* Release */ = {
+		E1EF2AB11BBB0E4A0023D2FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Release;
 		};
-		E18DE4E81BB2E31000FC3A25 /* Debug */ = {
+		E1EF2AB31BBB0E4A0023D2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -253,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		E18DE4E91BB2E31000FC3A25 /* Release */ = {
+		E1EF2AB41BBB0E4A0023D2FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -267,25 +267,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E18DE4D01BB2E31000FC3A25 /* Build configuration list for PBXProject "BasicMortgageCalculator" */ = {
+		E1EF2A9B1BBB0E4A0023D2FC /* Build configuration list for PBXProject "BasicMortgageCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E18DE4E51BB2E31000FC3A25 /* Debug */,
-				E18DE4E61BB2E31000FC3A25 /* Release */,
+				E1EF2AB01BBB0E4A0023D2FC /* Debug */,
+				E1EF2AB11BBB0E4A0023D2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E18DE4E71BB2E31000FC3A25 /* Build configuration list for PBXNativeTarget "BasicMortgageCalculator" */ = {
+		E1EF2AB21BBB0E4A0023D2FC /* Build configuration list for PBXNativeTarget "BasicMortgageCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E18DE4E81BB2E31000FC3A25 /* Debug */,
-				E18DE4E91BB2E31000FC3A25 /* Release */,
+				E1EF2AB31BBB0E4A0023D2FC /* Debug */,
+				E1EF2AB41BBB0E4A0023D2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E18DE4CD1BB2E31000FC3A25 /* Project object */;
+	rootObject = E1EF2A981BBB0E4A0023D2FC /* Project object */;
 }

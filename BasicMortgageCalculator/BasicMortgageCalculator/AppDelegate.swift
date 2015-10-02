@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BasicMortgageCalculator
 //
-//  Created by Nathan Guy on 9/23/15.
+//  Created by Nathan Guy on 9/29/15.
 //  Copyright © 2015 Nathan Guy. All rights reserved.
 //
 
