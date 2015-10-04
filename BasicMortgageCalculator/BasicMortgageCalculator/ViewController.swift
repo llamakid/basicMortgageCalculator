@@ -79,7 +79,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         n = loanTerm
         p = (loanAmountTextField.text as! NSString).doubleValue
-        // i = (rateTextField.text as! NSString).doubleValue
+        i = (rateTextField.text as! NSString).doubleValue
+        i = i/100
+        i = i/12
+        print(i)
         
         let first = (1+i)**n
         let second = first * i
