@@ -76,9 +76,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // calculate payment on tap of calculate button
     @IBAction func calculateButtonAction(sender: AnyObject) {
-        // print("Calculating...")
         
         n = loanTerm
+        p = (loanAmountTextField.text as! NSString).doubleValue
+        // i = (rateTextField.text as! NSString).doubleValue
         
         let first = (1+i)**n
         let second = first * i
@@ -105,6 +106,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
         return false
     }
+    
+    
 
 
 }
