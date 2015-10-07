@@ -77,6 +77,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // calculate payment on tap of calculate button
     @IBAction func calculateButtonAction(sender: AnyObject) {
         
+        // Set vars to grab string data from input, then convert to double.
         n = loanTerm
         p = (loanAmountTextField.text as! NSString).doubleValue
         i = (rateTextField.text as! NSString).doubleValue
@@ -84,6 +85,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         i = i/12
         print(i)
         
+        // calculate data
         let first = (1+i)**n
         let second = first * i
         let third = p * second
@@ -94,6 +96,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         print(fith)
         
+        // display result to user
         resultLabel.text = "\(fith)"
         
     }

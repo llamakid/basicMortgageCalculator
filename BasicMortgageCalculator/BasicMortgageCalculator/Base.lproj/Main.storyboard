@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicMortgageCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main" modalTransitionStyle="crossDissolve" id="BYZ-38-t0r" customClass="ViewController" customModule="BasicMortgageCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -128,6 +128,31 @@
                                     <action selector="segmentedControllerAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="h8E-YU-ET6"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyT-2n-NmA">
+                                <rect key="frame" x="27" y="562" width="156" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="plS-XC-Fm9"/>
+                                </constraints>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" red="0.49019607840000001" green="0.60392156860000001" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hVy-vA-gon" kind="show" id="uoi-Cb-fuk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESA-b9-Jrg">
+                                <rect key="frame" x="435" y="562" width="145" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="4OS-c2-Xl1"/>
+                                </constraints>
+                                <state key="normal" title="Schedule"/>
+                                <connections>
+                                    <segue destination="zGT-cl-i3V" kind="show" id="Vs0-bq-OFx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.49019607840000001" green="0.60392156860000001" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -137,6 +162,7 @@
                             <constraint firstItem="tmb-3D-HIC" firstAttribute="bottom" secondItem="rfu-fE-eQN" secondAttribute="bottom" id="5hd-kd-Unf"/>
                             <constraint firstItem="GhQ-ef-zCZ" firstAttribute="top" secondItem="zQC-UO-4jD" secondAttribute="bottom" constant="1" id="7Wj-us-bKF"/>
                             <constraint firstItem="dkL-yV-bQY" firstAttribute="leading" secondItem="hVX-61-ICc" secondAttribute="leading" id="Bpk-No-NrY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zyT-2n-NmA" secondAttribute="bottom" constant="8" symbolic="YES" id="KEz-7n-anw"/>
                             <constraint firstItem="C6v-vU-ofT" firstAttribute="leading" secondItem="VYB-60-9oV" secondAttribute="leading" id="Kk6-RL-pNp"/>
                             <constraint firstItem="sEp-Ab-kmv" firstAttribute="leading" secondItem="hVX-61-ICc" secondAttribute="leading" id="Kxi-UE-i9c"/>
                             <constraint firstItem="C6v-vU-ofT" firstAttribute="top" secondItem="tmb-3D-HIC" secondAttribute="bottom" constant="70" id="L2q-pd-NfM"/>
@@ -145,17 +171,20 @@
                             <constraint firstItem="sEp-Ab-kmv" firstAttribute="top" secondItem="GhQ-ef-zCZ" secondAttribute="bottom" constant="52" id="NdS-ML-4dy"/>
                             <constraint firstItem="rfu-fE-eQN" firstAttribute="leading" secondItem="VYB-60-9oV" secondAttribute="leading" id="O58-RQ-GgM"/>
                             <constraint firstItem="hVX-61-ICc" firstAttribute="top" secondItem="sEp-Ab-kmv" secondAttribute="bottom" constant="55" id="OZY-dX-T2x"/>
+                            <constraint firstItem="zyT-2n-NmA" firstAttribute="leading" secondItem="65R-zT-nT7" secondAttribute="leading" id="P3J-Uk-887"/>
                             <constraint firstItem="8zt-jt-kjz" firstAttribute="top" secondItem="GhQ-ef-zCZ" secondAttribute="bottom" constant="33" id="S7g-jz-YIb"/>
                             <constraint firstItem="rfu-fE-eQN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="Tx5-pS-XYZ"/>
                             <constraint firstItem="C6v-vU-ofT" firstAttribute="top" secondItem="VYB-60-9oV" secondAttribute="bottom" id="WT5-Zx-phx"/>
                             <constraint firstItem="GhQ-ef-zCZ" firstAttribute="leading" secondItem="8zt-jt-kjz" secondAttribute="leading" id="XBz-Ix-BI0"/>
                             <constraint firstItem="VYB-60-9oV" firstAttribute="top" secondItem="rfu-fE-eQN" secondAttribute="bottom" constant="49" id="ZUu-eJ-0PQ"/>
+                            <constraint firstItem="ESA-b9-Jrg" firstAttribute="trailing" secondItem="65R-zT-nT7" secondAttribute="trailing" id="Zbo-Qq-Fd8"/>
                             <constraint firstItem="GhQ-ef-zCZ" firstAttribute="trailing" secondItem="sEp-Ab-kmv" secondAttribute="trailing" id="aud-NN-ZKg"/>
                             <constraint firstItem="zQC-UO-4jD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="b0d-PJ-ixE"/>
                             <constraint firstItem="zQC-UO-4jD" firstAttribute="top" secondItem="C6v-vU-ofT" secondAttribute="bottom" constant="28" id="cPS-SW-mDx"/>
                             <constraint firstItem="C6v-vU-ofT" firstAttribute="trailing" secondItem="GhQ-ef-zCZ" secondAttribute="trailing" id="cXF-VU-FXi"/>
                             <constraint firstItem="rfu-fE-eQN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="gk7-Sn-HVn"/>
                             <constraint firstItem="tmb-3D-HIC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jXy-n9-gqb"/>
+                            <constraint firstItem="ESA-b9-Jrg" firstAttribute="baseline" secondItem="zyT-2n-NmA" secondAttribute="baseline" id="llJ-RO-hZV"/>
                             <constraint firstItem="65R-zT-nT7" firstAttribute="top" secondItem="dkL-yV-bQY" secondAttribute="bottom" constant="50" id="m2r-aN-uca"/>
                             <constraint firstItem="hVX-61-ICc" firstAttribute="top" secondItem="8zt-jt-kjz" secondAttribute="bottom" constant="81" id="ppG-xn-Thl"/>
                             <constraint firstItem="65R-zT-nT7" firstAttribute="leading" secondItem="dkL-yV-bQY" secondAttribute="leading" id="sFg-l1-Gjm"/>
@@ -174,5 +203,101 @@
             </objects>
             <point key="canvasLocation" x="784" y="429"/>
         </scene>
+        <!--Schedule-->
+        <scene sceneID="jxr-Tz-Hto">
+            <objects>
+                <viewController title="Schedule" modalTransitionStyle="crossDissolve" id="zGT-cl-i3V" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1LO-et-sXK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cpw-Mg-Nau"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zZq-Et-4Pb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2x-T5-7dt">
+                                <rect key="frame" x="26" y="28" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="i4u-7Y-7r3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.49019607840000001" green="0.60392156860000001" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90b-Ur-I7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464" y="372"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="8vP-Y7-4V2">
+            <objects>
+                <viewController title="About" modalTransitionStyle="crossDissolve" id="hVy-vA-gon" customClass="AboutViewController" customModule="BasicMortgageCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WO6-pg-Q2D"/>
+                        <viewControllerLayoutGuide type="bottom" id="N2P-hg-6br"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="meo-5v-21o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htP-ur-Ddg">
+                                <rect key="frame" x="26" y="28" width="34" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HCi-ec-Ry0"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="NkU-Nl-CGz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c3-ds-5Zn">
+                                <rect key="frame" x="26" y="101" width="554" height="105"/>
+                                <animations/>
+                                <string key="text">This app was developer by LlamaKid (aka Nate Guy) for the Year with Code project. Check out LlamaKid on Twitter: @LlamaKid. GitHub: @LlamaKid, or llamakid.com</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvL-by-FIE">
+                                <rect key="frame" x="26" y="211" width="554" height="177"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="3jt-AC-cgU"/>
+                                </constraints>
+                                <string key="text">Disclaimer: Results from this calculator are designed for educational and comparative purposes. The results are not guaranteed to be accurate. This does not prequalify you for a loan. Please see a Mortgage Banker in your area for that service.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.49019607840000001" green="0.60392156860000001" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0c3-ds-5Zn" firstAttribute="leading" secondItem="htP-ur-Ddg" secondAttribute="leading" id="7uH-8m-MW1"/>
+                            <constraint firstItem="0c3-ds-5Zn" firstAttribute="top" secondItem="htP-ur-Ddg" secondAttribute="bottom" constant="43" id="F1R-5S-oIa"/>
+                            <constraint firstItem="N2P-hg-6br" firstAttribute="top" secondItem="0c3-ds-5Zn" secondAttribute="bottom" constant="394" id="H3s-g2-u8W"/>
+                            <constraint firstItem="htP-ur-Ddg" firstAttribute="top" secondItem="WO6-pg-Q2D" secondAttribute="bottom" constant="8" symbolic="YES" id="aIU-yg-Qyy"/>
+                            <constraint firstItem="CvL-by-FIE" firstAttribute="leading" secondItem="meo-5v-21o" secondAttribute="leadingMargin" constant="6" id="dcC-a0-mHW"/>
+                            <constraint firstItem="htP-ur-Ddg" firstAttribute="leading" secondItem="meo-5v-21o" secondAttribute="leadingMargin" constant="6" id="rCg-Ur-nhP"/>
+                            <constraint firstItem="0c3-ds-5Zn" firstAttribute="trailing" secondItem="CvL-by-FIE" secondAttribute="trailing" id="w1h-H7-qbr"/>
+                            <constraint firstItem="0c3-ds-5Zn" firstAttribute="trailing" secondItem="meo-5v-21o" secondAttribute="trailingMargin" id="wx9-H6-uop"/>
+                            <constraint firstItem="N2P-hg-6br" firstAttribute="top" secondItem="CvL-by-FIE" secondAttribute="bottom" constant="212" id="zEt-r9-vrh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CmR-AZ-hlu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="1175"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="i4u-7Y-7r3"/>
+    </inferredMetricsTieBreakers>
 </document>
